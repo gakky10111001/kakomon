@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+ <html>
+<head>
+        <meta charset="utf-8">
+        <title>医療情報技師過去問題</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+</head>
+<body>
+    <script>
+           jQuery(function() {
+            var appear = false;
+            var pagetop = $('#page_top');
+            $(window).scroll(function () {
+              if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+                if (appear == false) {
+                  appear = true;
+                  pagetop.stop().animate({
+                    'right': '0px' //右から0pxの位置に
+                  }, 300); //0.3秒かけて現れる
+                }
+              } else {
+                if (appear) {
+                  appear = false;
+                  pagetop.stop().animate({
+                    'right': '-50px' //右から-50pxの位置に
+                  }, 300); //0.3秒かけて隠れる
+                }
+              }
+            });
+            pagetop.click(function () {
+              $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+              return false;
+            });
+          });
+              
+    </script>
+ 
+<header>
+    <div class="container">    
+        <div class="icon">
+        <h1>医療情報技師過去問</h1>
+        </div>
+        <div class="info">
+            <p>
+                情報処理技術系2019年<br>
+                
+            </p>
+            <!-- <a href="#" target="_blank">別タブを開くリンクボタン</a> -->
+        </div>
+    </div>
+</header>
+
+    <section>
+        <h1>問題１</h1>
+        <p>
+            2進数「100000111111010」を16進数で表現したのはどれか。番号を解答<br>
+            記入欄(　1　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1)　31FB</li>
+          <li> 2)　41FA</li>
+          <li> 3)　4FF8</li>
+          <li> 4)　71F2</li>
+          <li> 5)　AF18</li>
+        </ul>
+        <a href="answer.html#q1">解答を見る</a>
+     </section>
+
+    <section>
+        <h1>問題2</h1>
+        <p>
+            データ量が最も大きいのはどれか。<br>
+            番号を解答記入欄(　2　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 8GByte</li>
+          <li> 2) 4PByte</li>
+          <li> 3) 0.4TByte</li>
+          <li> 4) 0.4EByte</li>
+          <li> 5) 8,192MByte</li>
+        </ul>
+        <a href="answer.html#q2">解答を見る</a>
+     </section>
+
+    <section>
+        <h1>問題3</h1>
+        <p>
+           RGBの各色が8bitで表現される1,920×1,080画素の非圧縮画像ファイ<br>
+           ルのデータ量はどれか。番号を解答記入欄(　3　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 2MB</li>
+          <li> 2) 4MB</li>
+          <li> 3) 6MB</li>
+          <li> 4) 8MB</li>
+          <li> 5) 10MB</li>
+        </ul>
+        <a href="answer.html#q3">解答を見る</a>
+     </section>
+
+    <section>
+        <h1>問題4</h1>
+        <p>
+            16進数「92」と「A8」の排他的論理和(XOR)を2進数で表したのはど<br>
+            れか、番号を解答記入欄(　4　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 111010</li>
+          <li> 2) 1000101</li>
+          <li> 3) 10000000</li>
+          <li> 4) 10111010</li>
+          <li> 5) 100111010</li>
+        </ul>
+        <a href="answer.html#q4">解答を見る</a>
+     </section>
+
+    <section>
+        <h1>問題5</h1>
+        <p>
+            コンピュータを構成する装置のうち、他の装置に指示を出すのはどれか。<br>
+            記入欄(　5　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 制御装置</li>
+          <li> 2) 記憶装置</li>
+          <li> 3) 演算装置</li>
+          <li> 4) 入力装置</li>
+          <li> 5) 出力装置</li>
+        </ul>
+        <a href="answer.html#q5">解答を見る</a>
+     </section>
+    <section>
+        <h1>問題6</h1>
+        <p>
+            登録された複数の処理を自動で一括処理するのはどれか。<br>
+            番号を解答記入欄(　6　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) バッチ処理</li>
+          <li> 2) オフライン処理</li>
+          <li> 3) オンライン処理</li>
+          <li> 4) リアルタイム処理</li>
+          <li> 5) タイムシェアリング処理</li>
+        </ul>
+        <a href="answer.html#q6">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題7</h1>
+        <p>
+            SSD(Solid State Drive)について正しいのはどれか。<br>
+            番号を解答記入欄(　7　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 光ディスクである。</li>
+          <li> 2) 磁気ディスクである。</li>
+          <li> 3) 読み出し専用である。</li>
+          <li> 4) フラッシュメモリである。</li>
+          <li> 5) ランダムアクセスができない。</li>
+        </ul>
+        <a href="answer.html#q7">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題8</h1>
+        <p>
+            同容量のハードディスク12台でRAID10 を構成すると、実行容量は最大で<br>
+            ディスク何台分か。番号を解答記入欄(　8　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 3台</li>
+          <li> 2) 4台</li>
+          <li> 3) 6台</li>
+          <li> 4) 10台</li>
+          <li> 5) 11台</li>
+        </ul>
+        <a href="answer.html#q8">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題9</h1>
+        <p>
+          ディスプレイの種類と解像度の組み合わせで正しいのはどれか。なお、<br>
+          数字は縦・横のピクセル数を表す。番号を解答記入欄(　9　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 4K   - 7,680×4,320</li>
+          <li> 2) HD   - 1,920×1,200</li>
+          <li> 3) FHD  - 1,920×1,080</li>
+          <li> 4) VGA  -   800× 600</li>
+          <li> 5) SXGA - 1,024× 768</li>
+        </ul>
+        <a href="answer.html#q9">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題10</h1>
+        <p>
+            リーダーライターから発信される電波を用いて情報を読み書きするのは<br>
+            どれか。番号を解答記入欄(　11　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 磁気カード</li>
+          <li> 2) QRコード</li>
+          <li> 3) バーコード</li>
+          <li> 4) 接触式ICカード</li>
+          <li> 5) 非接触型ICカード</li>
+        </ul>
+        <a href="answer.html#q10">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題11</h1>
+        <p>
+            ************<br>
+            番号を解答記入欄(　11　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) </li>
+          <li> 2) </li>
+          <li> 3) </li>
+          <li> 4) </li>
+          <li> 5) </li>
+        </ul>
+        <a href="answer.html#q11">解答を見る</a>
+     </section>
+     
+<div class="pager">
+    <ul class="pagination">
+        <!-- <li class="pre"><a href="#"><span>«</span></a></li> -->
+        <li><a href="index.html" class="active"><span>1-10</span></a></li>
+        <li><a href="next2.html"><span>11-20</span></a></li>
+        <li><a href="#"><span>21-30</span></a></li>
+        <li><a href="#"><span>31-40</span></a></li>
+        <li><a href="#"><span>41-50</span></a></li>
+    </ul>
+    </div>
+    <div id="page_top"><a href="#"></a></div>
+ 
+<footer>(C) nagaki </footer>
+</body>
+
+ </html> 
