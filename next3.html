@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+ <html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>医療情報技師過去問題</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+</head>
+<body>
+    <script>
+           jQuery(function() {
+            var appear = false;
+            var pagetop = $('#page_top');
+            $(window).scroll(function () {
+              if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+                if (appear == false) {
+                  appear = true;
+                  pagetop.stop().animate({
+                    'right': '0px' //右から0pxの位置に
+                  }, 300); //0.3秒かけて現れる
+                }
+              } else {
+                if (appear) {
+                  appear = false;
+                  pagetop.stop().animate({
+                    'right': '-50px' //右から-50pxの位置に
+                  }, 300); //0.3秒かけて隠れる
+                }
+              }
+            });
+            pagetop.click(function () {
+              $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+              return false;
+            });
+          });
+              
+    </script>
+ 
+<header>
+    <div class="container">    
+        <div class="icon">
+        <h1>医療情報技師過去問</h1>
+        </div>
+        <div class="info">
+            <p>
+                情報処理技術系2019年<br>
+                
+            </p>
+            <!-- <a href="#" target="_blank">別タブを開くリンクボタン</a> -->
+        </div>
+    </div>
+</header>
+
+     <section>
+        <h1>問題21</h1>
+        <p>
+            OSI参照モデルにおいてルーティング（経路制御）を行う層はどれか。<br>
+            番号を解答記入欄(　21　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 物理層</li>
+          <li> 2) データリンク層</li>
+          <li> 3) ネットワーク層</li>
+          <li> 4) トランスポート層</li>
+          <li> 5) アプリケーション層</li>
+        </ul>
+        <a href="answer.html#q21">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題22</h1>
+        <p>
+            OSI参照モデルのトランスポート層で利用されるプロトコルで、相手との<br>
+            コネクションを確立して通信するのはどれか。番号を解答記入欄(　22　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) NTP</li>
+          <li> 2) PPP</li>
+          <li> 3) TCP</li>
+          <li> 4) UDP</li>
+          <li> 5) UTP</li>
+        </ul>
+        <a href="answer.html#q22">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題23</h1>
+        <p>
+            192.168.32.0/23のサブネットマスクはどれか。<br>
+            番号を解答記入欄(　23　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 255.255.248.0</li>
+          <li> 2) 255.255.252.0</li>
+          <li> 3) 255.255.254.0</li>
+          <li> 4) 255.255.255.0</li>
+          <li> 5) 255.255.255.128</li>
+        </ul>
+        <a href="answer.html#q23">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題24</h1>
+        <p>
+            電子メールの受信に使うサービス名称とポート番号の組み合わせで正しいのはどれか。<br>
+            番号を解答記入欄(　24　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) POP3-993</li>
+          <li> 2) SMTP-465</li>
+          <li> 3) POP3S-995</li>
+          <li> 4) SMTPs-25</li>
+          <li> 5) IMAP4s-110</li>
+        </ul>
+        <a href="answer.html#q24">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題25</h1>
+        <p>
+            Webブラウザを使ってhttp: //WWW.jami.jp/index.htmlにアクセスすると、<br>
+            「サーバのIPアドレスが見つかりませんでした」と表示された。原因として<br>
+            考えられるのはどれか。番号を解答記入欄(　25　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) ページが存在しない。</li>
+          <li> 2) DNSサーバが停止していた。</li>
+          <li> 3) ファイルのアクセス権がない。</li>
+          <li> 4) サーバの内部処理が不正である。</li>
+          <li> 5) 当該Webサーバが停止していた。</li>
+        </ul>
+        <a href="answer.html#q25">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題26</h1>
+        <p>
+            VLANの説明として正しいのはどれか。<br>
+            番号を解答記入欄(　26　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) データを暗号化して通信できる。</li>
+          <li> 2) 物理的なネットワーク分割である。</li>
+          <li> 3) 信頼性を重視する通信で使われる。</li>
+          <li> 4) ネットワーク設定情報が自動的に提供される。</li>
+          <li> 5) １台のスイッチに複数のネットワークを割り当てられる。</li>
+        </ul>
+        <a href="answer.html#q26">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題27</h1>
+        <p>
+            無線LANを識別するための情報はどれか。<br>
+            番号を解答記入欄(　27　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) CDMA</li>
+          <li> 2) MUME</li>
+          <li> 3) TKIP</li>
+          <li> 4) WPA2</li>
+          <li> 5) ESSID</li>
+        </ul>
+        <a href="answer.html#q27">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題28</h1>
+        <p>
+            無線LANで多数のアンテナを使って高速化を図る技術はどれか。<br>
+            番号を解答記入欄(　28　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) ATM</li>
+          <li> 2) PoE</li>
+          <li> 3) CDMA</li>
+          <li> 4) MIMO</li>
+          <li> 5) Wi-Fi</li>
+        </ul>
+        <a href="answer.html#q28">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題29</h1>
+        <p>
+          図中のInternetへ通信する場合、ルータBの経路表Zに記載される<br>
+          ネットワークインターフェースは、図中の１）から５)のうちのどれか。<br>
+            番号を解答記入欄(　29　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) １）</li>
+          <li> 2) ２）</li>
+          <li> 3) ３）</li>
+          <li> 4) ４）</li>
+          <li> 5) ５）</li>
+        </ul>
+        <a href="answer.html#q29">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題30</h1>
+        <p>
+            IEEE802.11ｎの規格で接続した無線LANを使って600Mbyteのファイルをダウンロード<br>
+            するのに要する時間はどれか。ただし、通信規格の最大速度に対する実行速度は25％とし、<br>
+            エラーや再送はないものとする。<br>
+            番号を解答記入欄(　30　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 1秒</li>
+          <li> 2) 4秒</li>
+          <li> 3) 8秒</li>
+          <li> 4) 16秒</li>
+          <li> 5) 32秒</li>
+        </ul>
+        <a href="answer.html#q30">解答を見る</a>
+     </section>
+
+     
+<div class="pager">
+    <ul class="pagination">
+        <!-- <li class="pre"><a href="#"><span>«</span></a></li> -->
+        <li><a href="index.html"><span>1-10</span></a></li>
+        <li><a href="next2.html"><span>11-20</span></a></li>
+        <li><a href="next3.html"" class="active"><span>21-30</span></a></li>
+        <li><a href="next4.html"><span>31-40</span></a></li>
+        <li><a href="next5.html"><span>41-50</span></a></li>
+    </ul>
+    </div>
+    <div id="page_top"><a href="#"></a></div>
+ 
+<footer>(C) nagaki </footer>
+</body>
+
+ </html> 
