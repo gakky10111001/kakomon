@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+ <html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>医療情報技師過去問題</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+</head>
+<body>
+    <script>
+           jQuery(function() {
+            var appear = false;
+            var pagetop = $('#page_top');
+            $(window).scroll(function () {
+              if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+                if (appear == false) {
+                  appear = true;
+                  pagetop.stop().animate({
+                    'right': '0px' //右から0pxの位置に
+                  }, 300); //0.3秒かけて現れる
+                }
+              } else {
+                if (appear) {
+                  appear = false;
+                  pagetop.stop().animate({
+                    'right': '-50px' //右から-50pxの位置に
+                  }, 300); //0.3秒かけて隠れる
+                }
+              }
+            });
+            pagetop.click(function () {
+              $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+              return false;
+            });
+          });
+              
+    </script>
+ 
+<header>
+    <div class="container">    
+        <div class="icon">
+        <h1>医療情報技師過去問</h1>
+        </div>
+        <div class="info">
+            <p>
+                情報処理技術系2019年<br>
+                
+            </p>
+            <!-- <a href="#" target="_blank">別タブを開くリンクボタン</a> -->
+        </div>
+    </div>
+</header>
+
+     <section>
+        <h1>問題41</h1>
+        <p>
+           SSL/TLSについて正しいのはどれか。<br>
+            番号を解答記入欄(　41　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 通信が高速化する。</li>
+          <li> 2) 証明書が不要である。</li>
+          <li> 3) データを修復できる。</li>
+          <li> 4) 暗号化した通信に用いる。</li>
+          <li> 5) 不正なプログラムを検出できる。</li>
+        </ul>
+        <a href="answer.html#q41">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題42</h1>
+        <p>
+            リバースエンジニアリングとは何か<br>
+            番号を解答記入欄(　42　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) プログラムのバグを発見すること</li>
+          <li> 2) プログラムから機能を取り外すこと</li>
+          <li> 3) プログラムのバージョンを元に戻すこと</li>
+          <li> 4) 保証されたプログラムを再利用すること</li>
+          <li> 5) プログラムを解析して使用を作成すること</li>
+        </ul>
+        <a href="answer.html#q42">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題43</h1>
+        <p>
+            プロジェクトの各工数を各担当者の作業レベルまで分散し階層化・構造化したのはどれか。<br>
+            番号を解答記入欄(　43　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) DFD</li>
+          <li> 2) UML</li>
+          <li> 3) WBS</li>
+          <li> 4) E-R図</li>
+          <li> 5) ネットワーク図</li>
+        </ul>
+        <a href="answer.html#q43">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題44</h1>
+        <p>
+           ソフトウエアの使用許諾の一つであるボリュームライセンスについて正しいのはどれか。<br>
+            番号を解答記入欄(　44　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 登録したユーザのみが利用できる。</li>
+          <li> 2) 購入したライセンス数だけ利用できる。</li>
+          <li> 3) 契約した組織内で無制限に利用できる。</li>
+          <li> 4) 登録したコンピュータのみで利用できる。</li>
+          <li> 5) 契約した容量の範囲内で自由に利用できる。</li>
+        </ul>
+        <a href="answer.html#q44">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題45</h1>
+        <p>
+          以下のネットワーク図におけるクリティカルパスはどれか。<br>
+            番号を解答記入欄(　45　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) A→B→D→F</li>
+          <li> 2) A→B→E→F</li>
+          <li> 3) A→C→E→F</li>
+          <li> 4) A→B→C→E→F</li>
+          <li> 5) A→B→D→E→F</li>
+        </ul>
+        <a href="answer.html#q45">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題46</h1>
+        <p>
+            正常稼働中は待機系の電源を切っておく耐障害設計はどれか。<br>
+            番号を解答記入欄(　46　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) ミラーリング</li>
+          <li> 2) フェールセーフ</li>
+          <li> 3) クラスタリング</li>
+          <li> 4) デュアルシステム</li>
+          <li> 5) コールドスタンバイ</li>
+        </ul>
+        <a href="answer.html#q46">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題47</h1>
+        <p>
+            情報システムの組織的安全管理対策に該当するのはどれか。<br>
+            番号を解答記入欄(　47　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 防犯カメラの設置</li>
+          <li> 2) ユーザ教育の実施</li>
+          <li> 3) サーバ室の耐震工事</li>
+          <li> 4) 事業継続計画（BCP）の策定</li>
+          <li> 5) 遠隔地のバックアップシステムの構築</li>
+        </ul>
+        <a href="answer.html#q47">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題48</h1>
+        <p>
+            デスクトップの仮想化はどれか。<br>
+            番号を解答記入欄(　48　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) RDP</li>
+          <li> 2) TSS</li>
+          <li> 3) VDA</li>
+          <li> 4) VDI</li>
+          <li> 5) VDT</li>
+        </ul>
+        <a href="answer.html#q48">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題49</h1>
+        <p>
+            アプリケーションサービスを提供するクラウドサービスモデルはどれか。<br>
+            番号を解答記入欄(　49　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) BaaS</li>
+          <li> 2) DaaS</li>
+          <li> 3) IaaS</li>
+          <li> 4) Paas</li>
+          <li> 5) SaaS</li>
+        </ul>
+        <a href="answer.html#q49">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題50</h1>
+        <p>
+          大量データから隠れた規則や関係を抽出するのはどれか。<br>
+            番号を解答記入欄(　50　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) SDN</li>
+          <li> 2) OLAP</li>
+          <li> 3) ビックデータ</li>
+          <li> 4) データマイニング</li>
+          <li> 5) データウェアハウス</li>
+        </ul>
+        <a href="answer.html#q50">解答を見る</a>
+     </section>
+
+
+     
+<div class="pager">
+    <ul class="pagination">
+        <!-- <li class="pre"><a href="#"><span>«</span></a></li> -->
+        <li><a href="index.html"><span>1-10</span></a></li>
+        <li><a href="next2.html"><span>11-20</span></a></li>
+        <li><a href="next3.html"><span>21-30</span></a></li>
+        <li><a href="next4.html"><span>31-40</span></a></li>
+        <li><a href="next5.html"" class="active"><span>41-50</span></a></li>
+    </ul>
+    </div>
+    <div id="page_top"><a href="#"></a></div>
+ 
+<footer>(C) nagaki </footer>
+</body>
+
+ </html> 
