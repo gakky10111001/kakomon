@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+ <html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>医療情報技師過去問題</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+</head>
+<body>
+    <script>
+           jQuery(function() {
+            var appear = false;
+            var pagetop = $('#page_top');
+            $(window).scroll(function () {
+              if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+                if (appear == false) {
+                  appear = true;
+                  pagetop.stop().animate({
+                    'right': '0px' //右から0pxの位置に
+                  }, 300); //0.3秒かけて現れる
+                }
+              } else {
+                if (appear) {
+                  appear = false;
+                  pagetop.stop().animate({
+                    'right': '-50px' //右から-50pxの位置に
+                  }, 300); //0.3秒かけて隠れる
+                }
+              }
+            });
+            pagetop.click(function () {
+              $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+              return false;
+            });
+          });
+              
+    </script>
+ 
+<header>
+    <div class="container">    
+        <div class="icon">
+        <h1>医療情報技師過去問</h1>
+        </div>
+        <div class="info">
+            <p>
+                情報処理技術系2019年<br>
+                
+            </p>
+            <!-- <a href="#" target="_blank">別タブを開くリンクボタン</a> -->
+        </div>
+    </div>
+</header>
+
+     <section>
+        <h1>問題31</h1>
+        <p>
+            情報セキュリティの3要素のうち、情報資産の正確さを保護する特性はどれか。<br>
+            番号を解答記入欄(　31　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 可用性</li>
+          <li> 2) 完全性</li>
+          <li> 3) 機密性</li>
+          <li> 4) 信頼性</li>
+          <li> 5) 正確性</li>
+        </ul>
+        <a href="answer.html#q31">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題32</h1>
+        <p>
+            情報セキュリティの要素である「機密性」に関する技術はどれか。<br>
+            番号を解答記入欄(　32　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 負荷分散</li>
+          <li> 2) ユーザ認証</li>
+          <li> 3) デジタル署名</li>
+          <li> 4) システムログ</li>
+          <li> 5) タイムスタンプ</li>
+        </ul>
+        <a href="answer.html#q32">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題33</h1>
+        <p>
+          脅威発生の要因を変更し、リスクを消し去るのはどれか。<br>
+            番号を解答記入欄(　33　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) リスク削減</li>
+          <li> 2) リスク回避</li>
+          <li> 3) リスク分散</li>
+          <li> 4) リスク移転</li>
+          <li> 5) リスク保有</li>
+        </ul>
+        <a href="answer.html#q33">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題34</h1>
+        <p>
+            PKIについて、図中の（ア）と（イ）の組み合わせで正しいのはどれか。<br>
+            番号を解答記入欄(　34　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) （ア）認証局ー（イ）証明書</li>
+          <li> 2) （ア）認証局ー（イ）許可証 </li>
+          <li> 3) （ア）法務局ー（イ）証明書 </li>
+          <li> 4) （ア）認証局ー（イ）電子署名 </li>
+          <li> 5) （ア）法務局ー（イ）電子署名 </li>
+        </ul>
+        <a href="answer.html#q34">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題35</h1>
+        <p>
+            情報セキュリティに特化したリスクマネジメントシステムはどれか。<br>
+            番号を解答記入欄(　35　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) ISMS</li>
+          <li> 2) NISC</li>
+          <li> 3) CSIRT</li>
+          <li> 4) 情報セキュリティ監査</li>
+          <li> 5) 情報セキュリティポリシー</li>
+        </ul>
+        <a href="answer.html#q35">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題36</h1>
+        <p>
+            次の中の（ア）と（イ）の組み合わせで正しいのはどれか。<br>
+            番号を解答記入欄(　36　)にマークしなさい。<br>
+            「ハイブリット暗号方式では、送信者は（ア）を用いて共通鍵を暗号化し<br>
+            受信者は（イ）を用いて共通鍵を復号する」
+        </p>
+        <ul>
+          <li> 1) （ア）秘密鍵ー（イ）共通鍵</li>
+          <li> 2) （ア）公開鍵ー（イ）秘密鍵 </li>
+          <li> 3) （ア）秘密鍵ー（イ）公開鍵 </li>
+          <li> 4) （ア）公開鍵ー（イ）公開鍵 </li>
+          <li> 5) （ア）公開鍵ー（イ）共通鍵 </li>
+        </ul>
+        <a href="answer.html#q36">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題37</h1>
+        <p>
+            特定の企業や個人を狙ったサイバー攻撃はどれか。<br>
+            番号を解答記入欄(　37　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) 標的型攻撃</li>
+          <li> 2) ブルートフォース攻撃</li>
+          <li> 3) バッファローオーバーフロー攻撃</li>
+          <li> 4) SQLインジェクション攻撃</li>
+          <li> 5) クロスサイトスクリプティング攻撃</li>
+        </ul>
+        <a href="answer.html#q37">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題38</h1>
+        <p>
+            本物そっくりのWebページに誘導して個人情報を盗む行為はどれか。<br>
+            番号を解答記入欄(　38　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) ボット</li>
+          <li> 2) アドウェア</li>
+          <li> 3) フィッシング</li>
+          <li> 4) スパイウエア</li>
+          <li> 5) ランサムウェア</li>
+        </ul>
+        <a href="answer.html#q38">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題39</h1>
+        <p>
+            サイバー攻撃で侵入者が不正行為に利用するために設置するのはどれか。<br>
+            番号を解答記入欄(　39　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) DMZ</li>
+          <li> 2) VPN</li>
+          <li> 3) ルータ</li>
+          <li> 4) バックドア</li>
+          <li> 5) ファイアウォール</li>
+        </ul>
+        <a href="answer.html#q39">解答を見る</a>
+     </section>
+
+     <section>
+        <h1>問題40</h1>
+        <p>
+           無線LANのセキュリティ規格はどれか。<br>
+            番号を解答記入欄(　40　)にマークしなさい。
+        </p>
+        <ul>
+          <li> 1) PGP</li>
+          <li> 2) CHAP</li>
+          <li> 3) LDAP</li>
+          <li> 4) WPA2</li>
+          <li> 5) CSIRT</li>
+        </ul>
+        <a href="answer.html#q40">解答を見る</a>
+     </section>
+
+     
+<div class="pager">
+    <ul class="pagination">
+        <!-- <li class="pre"><a href="#"><span>«</span></a></li> -->
+        <li><a href="index.html"><span>1-10</span></a></li>
+        <li><a href="next2.html"><span>11-20</span></a></li>
+        <li><a href="next3.html"><span>21-30</span></a></li>
+        <li><a href="next4.html"" class="active"><span>31-40</span></a></li>
+        <li><a href="next5.html"><span>41-50</span></a></li>
+    </ul>
+    </div>
+    <div id="page_top"><a href="#"></a></div>
+ 
+<footer>(C) nagaki </footer>
+</body>
+
+ </html> 
